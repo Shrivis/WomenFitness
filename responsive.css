@@ -1,0 +1,77 @@
+@media only screen and (max-width:1130px){
+  .nav-list{
+    flex-direction: column;
+    transition: All 0.7s ease-out;
+    height: 5px;
+  }
+  .navbar{
+    flex-direction: column;
+    height: 72px;
+  }
+  .rightNav{
+    text-align: center;
+        visibility: hidden;
+  }
+  .box-main{
+    flex-direction: column-reverse;
+    max-width: 100%;
+  }
+  #search{
+    width: 100%;
+  }
+  .burger{
+    display: block;
+  }
+  .h-nav-resp{
+    height: 72;
+  }
+  .v-class-resp{
+    opacity: 0;
+  }
+  .section{
+    flex-direction: column-reverse;
+  }
+  .text-small{
+    text-align: center;
+font-size: 5px;
+  }
+  .text-big{
+    text-align: center;
+    font-size: 40px;
+  }
+  .buttons{
+    text-align: center;
+  }
+  .paras{
+    padding: 0;
+  }
+  .logo{
+    justify-content: center;
+    visibility: hidden;
+  }
+.secondHalf img{
+  visibility: hidden;
+}
+.firstHalf{
+  width:90%;
+}
+hr{
+  visibility: hidden;
+}
+.firstHalf .text-small{
+  font-size: 20px;
+}
+.caption{
+  font-size: 20px;
+}
+.sectionSubtag {
+  list-style: none;
+}
+
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url(img/pic17.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+}
